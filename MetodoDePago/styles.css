@@ -1,0 +1,78 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+    }
+    
+    .payment-gateway {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .payment-methods {
+        margin-bottom: 20px;
+    }
+    
+    .payment-methods ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .payment-methods li {
+        margin-bottom: 10px;
+    }
+    
+    .payment-methods input[type="radio"] {
+        margin-right: 10px;
+    }
+    
+    .payment-methods label {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .payment-methods img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .payment-info {
+        margin-bottom: 20px;
+    }
+    
+    .tarjeta-info,
+    .billetera-electronica-info {
+        display: none;
+    }
+    
+    .tarjeta-info.active,
+    .billetera-electronica-info.active {
+        display: block;
+    }
+    
+    .payment-info label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .payment-info input[type="text"],
+    .payment-info input[type="email"],
+    .payment-info input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+    
+    .payment-total {
+        margin-bottom: 20px;
+    }
+    
+    .payment-total span {
+        font-weight: bold;
+    }
