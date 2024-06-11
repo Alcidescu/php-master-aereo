@@ -231,7 +231,7 @@ http://www.tooplate.com/view/2093-flight
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Acapulco</h6>
+                                                        <h6>LIMA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-03.png" alt="">
                                                         </div>
@@ -246,7 +246,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Monterrey</h6>
+                                                        <h6>CUSCO</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-02.png" alt="">
                                                         </div>
@@ -261,7 +261,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Baja California</h6>
+                                                        <h6>AREQUIPA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-01.png" alt="">
                                                         </div>
@@ -280,7 +280,7 @@ http://www.tooplate.com/view/2093-flight
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Acapulco</h6>
+                                                        <h6>LIMA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-02.png" alt="">
                                                         </div>
@@ -295,7 +295,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Monterrey</h6>
+                                                        <h6>CUSCO</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-03.png" alt="">
                                                         </div>
@@ -310,7 +310,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Baja California</h6>
+                                                        <h6>AREQUIPA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-01.png" alt="">
                                                         </div>
@@ -329,7 +329,7 @@ http://www.tooplate.com/view/2093-flight
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Acapulco</h6>
+                                                        <h6>LIMA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-03.png" alt="">
                                                         </div>
@@ -344,7 +344,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Monterrey</h6>
+                                                        <h6>CUSCO </h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-01.png" alt="">
                                                         </div>
@@ -359,7 +359,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Baja California</h6>
+                                                        <h6>AREQUIPA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-02.png" alt="">
                                                         </div>
@@ -378,7 +378,7 @@ http://www.tooplate.com/view/2093-flight
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Acapulco</h6>
+                                                        <h6>LIMA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-01.png" alt="">
                                                         </div>
@@ -393,7 +393,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Monterrey</h6>
+                                                        <h6>CUSCO</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-02.png" alt="">
                                                         </div>
@@ -408,7 +408,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Baja California</h6>
+                                                        <h6>AREQUIPA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-03.png" alt="">
                                                         </div>
@@ -427,7 +427,7 @@ http://www.tooplate.com/view/2093-flight
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Acapulco</h6>
+                                                        <h6>LIMA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-03.png" alt="">
                                                         </div>
@@ -442,7 +442,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Monterrey</h6>
+                                                        <h6>CUSCO</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-02.png" alt="">
                                                         </div>
@@ -457,7 +457,7 @@ http://www.tooplate.com/view/2093-flight
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="weather-item">
-                                                        <h6>Baja California</h6>
+                                                        <h6>AREQUIPA</h6>
                                                         <div class="weather-icon">
                                                             <img src="img/weather-icon-01.png" alt="">
                                                         </div>
