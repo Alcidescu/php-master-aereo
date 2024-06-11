@@ -50,6 +50,7 @@ http://www.tooplate.com/view/2093-flight
 
 
 <body>
+    
     <!-- ======= Header ======= -->
     <header id="header" style="background: black;" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-lg-between">
@@ -64,29 +65,20 @@ http://www.tooplate.com/view/2093-flight
                     <li><a class="nav-link scrollto" href="index-pagos.php">Reservas</a></li>
                     <li class="dropdown"><a href=""><span>Listas de Aerolineas</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="https://www.aeromar.mx/">Aeromar</a></li>
-                            <li><a href="https://aeromexico.com">Aeroméxico</a></li>
-                            <li><a href="https://www.calafiaairlines.com/">Calafia Airlines</a></li>
-                            <li><a href="https://interjet.pricetravel.com.mx/">Interjet</a></li>
-                            <li><a href="https://www.magnicharters.com">Magnicharters</a></li>
-                            <li><a href="https://tarmexico.com/#/">TAR</a></li>
-                            <li><a href="https://www.vivaaerobus.com/mx">VivaAerobus</a></li>
-                            <li><a href="https://www.volaris.com/">Volaris</a></li>
+                        <li><a href="https://www.lan.com">LAN Perú</a></li>
+                            <li><a href="https://www.vivaperu.com">Viva Air Perú</a></li>
+                            <li><a href="https://www.skyairline.com">Sky Airline</a></li>
+                            <li><a href="https://www.starperu.com">Star Perú</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="Aeropuertos.php"><span>Aeropuertos</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#">Lista completa de Aeropuertos</a></li>
-                            <li><a href="#">Cancún</a></li>
-                            <li><a href="#">Ciudad de México</a></li>
-                            <li><a href="#">Culiacán</a></li>
-                            <li><a href="#">Gudalajara</a></li>
-                            <li><a href="#">Guanajuato</a></li>
-                            <li><a href="#">Los Cabos</a></li>
-                            <li><a href="#">Mérida</a></li>
-                            <li><a href="#">Monterrey</a></li>
-                            <li><a href="#">Puerto Vallarta</a></li>
-                            <li><a href="#">Tijuana</a></li>
+                            <li><a href="#">Lima</a></li>
+                            <li><a href="#">Cusco</a></li>
+                            <li><a href="#">Arequipa</a></li>
+                            <li><a href="#">Trujillo</a></li>
+                            <li><a href="#">Piura</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i class="bi bi-chevron-down"></i></a>
@@ -210,277 +202,152 @@ http://www.tooplate.com/view/2093-flight
                 <div class="col-md-12">
                     <div class="section-heading">
                         <h2>CONSULTA EL TIEMPO PARA LOS PRÓXIMOS 5 DIAS</h2>
-                    </div>
-                </div>
-                <div class="wrapper">
-                    <div class="col-md-12">
-                        <div class="weather-content">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <ul class="tabs clearfix" data-tabgroup="second-tab-group">
-                                        <li><a href="#monday" class="active">LUNES</a></li>
-                                        <li><a href="#tuesday">MARTES</a></li>
-                                        <li><a href="#wednesday">MIERCOLES</a></li>
-                                        <li><a href="#thursday">JUEVES</a></li>
-                                        <li><a href="#friday">VIERNES</a></li>
-                                    </ul>
+                        </div>
+        </div>
+        <div class="wrapper">
+            <div class="col-md-12">
+                <div class="weather-content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="tabs clearfix" data-tabgroup="second-tab-group">
+                                <li><a href="#monday" class="active">LUNES</a></li>
+                                <li><a href="#tuesday">MARTES</a></li>
+                                <li><a href="#wednesday">MIÉRCOLES</a></li>
+                                <li><a href="#thursday">JUEVES</a></li>
+                                <li><a href="#friday">VIERNES</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <section id="second-tab-group" class="weathergroup">
+                                <div id="monday">
+                                    <div class="row">
+                                        <!-- Monday Weather -->
+                                        <div class="col-md-4">
+                                            <div class="weather-item">
+                                                <h6>LIMA</h6>
+                                                
+                                                <div id="lima-monday" class="weather-icon"></div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="weather-item">
+                                                <h6>CUSCO</h6>
+                                                <div id="cusco-monday" class="weather-icon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="weather-item">
+                                                <h6>AREQUIPA</h6>
+                                                <div id="arequipa-monday" class="weather-icon"></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <section id="second-tab-group" class="weathergroup">
-                                        <div id="monday">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Acapulco</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-03.png" alt="">
-                                                        </div>
-                                                        <span>32&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>26&deg;</span></li>
-                                                            <li>12PM <span>32&deg;</span></li>
-                                                            <li>6PM <span>28&deg;</span></li>
-                                                            <li>12AM <span>22&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Monterrey</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-02.png" alt="">
-                                                        </div>
-                                                        <span>28&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>20&deg;</span></li>
-                                                            <li>12PM <span>28&deg;</span></li>
-                                                            <li>6PM <span>26&deg;</span></li>
-                                                            <li>12AM <span>18&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Baja California</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-01.png" alt="">
-                                                        </div>
-                                                        <span>33&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>26&deg;</span></li>
-                                                            <li>12PM <span>33&deg;</span></li>
-                                                            <li>6PM <span>29&deg;</span></li>
-                                                            <li>12AM <span>27&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
+                                <!-- Include other days' weather information similarly -->
+                                <div id="tuesday">
+                                    <div class="row">
+                                        <!-- Tuesday Weather -->
+                                        <div class="col-md-4">
+                                            <div class="weather-item">
+                                                <h6>LIMA</h6>
+                                                <div id="lima-tuesday" class="weather-icon"></div>
                                             </div>
                                         </div>
-                                        <div id="tuesday">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Acapulco</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-02.png" alt="">
-                                                        </div>
-                                                        <span>28&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>18&deg;</span></li>
-                                                            <li>12PM <span>27&deg;</span></li>
-                                                            <li>6PM <span>25&deg;</span></li>
-                                                            <li>12AM <span>17&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Monterrey</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-03.png" alt="">
-                                                        </div>
-                                                        <span>31&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>19&deg;</span></li>
-                                                            <li>12PM <span>28&deg;</span></li>
-                                                            <li>6PM <span>22&deg;</span></li>
-                                                            <li>12AM <span>18&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Baja California</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-01.png" alt="">
-                                                        </div>
-                                                        <span>26&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>19&deg;</span></li>
-                                                            <li>12PM <span>26&deg;</span></li>
-                                                            <li>6PM <span>22&deg;</span></li>
-                                                            <li>12AM <span>20&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
+                                        <div class="col-md-4">
+                                            <div class="weather-item">
+                                                <h6>CUSCO</h6>
+                                                <div id="cusco-tuesday" class="weather-icon"></div>
                                             </div>
                                         </div>
-                                        <div id="wednesday">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Acapulco</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-03.png" alt="">
-                                                        </div>
-                                                        <span>31&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>19&deg;</span></li>
-                                                            <li>12PM <span>28&deg;</span></li>
-                                                            <li>6PM <span>22&deg;</span></li>
-                                                            <li>12AM <span>18&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Monterrey</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-01.png" alt="">
-                                                        </div>
-                                                        <span>34&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>28&deg;</span></li>
-                                                            <li>12PM <span>34&deg;</span></li>
-                                                            <li>6PM <span>30&deg;</span></li>
-                                                            <li>12AM <span>29&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Baja California</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-02.png" alt="">
-                                                        </div>
-                                                        <span>28&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>18&deg;</span></li>
-                                                            <li>12PM <span>27&deg;</span></li>
-                                                            <li>6PM <span>25&deg;</span></li>
-                                                            <li>12AM <span>17&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
+                                        <div class="col-md-4">
+                                            <div class="weather-item">
+                                                <h6>AREQUIPA</h6>
+                                                <div id="arequipa-tuesday" class="weather-icon"></div>
                                             </div>
                                         </div>
-                                        <div id="thursday">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Acapulco</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-01.png" alt="">
-                                                        </div>
-                                                        <span>27&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>21&deg;</span></li>
-                                                            <li>12PM <span>27&deg;</span></li>
-                                                            <li>6PM <span>22&deg;</span></li>
-                                                            <li>12AM <span>18&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Monterrey</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-02.png" alt="">
-                                                        </div>
-                                                        <span>28&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>18&deg;</span></li>
-                                                            <li>12PM <span>27&deg;</span></li>
-                                                            <li>6PM <span>25&deg;</span></li>
-                                                            <li>12AM <span>17&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Baja California</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-03.png" alt="">
-                                                        </div>
-                                                        <span>31&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>19&deg;</span></li>
-                                                            <li>12PM <span>28&deg;</span></li>
-                                                            <li>6PM <span>22&deg;</span></li>
-                                                            <li>12AM <span>18&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="friday">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Acapulco</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-03.png" alt="">
-                                                        </div>
-                                                        <span>33&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>28&deg;</span></li>
-                                                            <li>12PM <span>33&deg;</span></li>
-                                                            <li>6PM <span>29&deg;</span></li>
-                                                            <li>12AM <span>27&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Monterrey</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-02.png" alt="">
-                                                        </div>
-                                                        <span>31&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>24&deg;</span></li>
-                                                            <li>12PM <span>31&deg;</span></li>
-                                                            <li>6PM <span>26&deg;</span></li>
-                                                            <li>12AM <span>23&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="weather-item">
-                                                        <h6>Baja California</h6>
-                                                        <div class="weather-icon">
-                                                            <img src="img/weather-icon-01.png" alt="">
-                                                        </div>
-                                                        <span>28&deg;C</span>
-                                                        <ul class="time-weather">
-                                                            <li>6AM <span>24&deg;</span></li>
-                                                            <li>12PM <span>28&deg;</span></li>
-                                                            <li>6PM <span>26&deg;</span></li>
-                                                            <li>12AM <span>22&deg;</span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
+                                    </div>
                                 </div>
-                            </div>
+                                        <!-- Similar structure as Monday, replace "monday" with "tuesday" -->
+                                    </div>
+                                </div>
+                                <div id="wednesday">
+                                    <div class="row">
+                                        <!-- Wednesday Weather -->
+                                         
+                                        <!-- Similar structure as Monday, replace "monday" with "wednesday" -->
+                                    </div>
+                                </div>
+                                <div id="thursday">
+                                    <div class="row">
+                                        <!-- Thursday Weather -->
+                                        <!-- Similar structure as Monday, replace "monday" with "thursday" -->
+                                    </div>
+                                </div>
+                                <div id="friday">
+                                    <div class="row">
+                                        <!-- Friday Weather -->
+                                        <!-- Similar structure as Monday, replace "monday" with "friday" -->
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+<script>
+    const apiKey = 'c5c94d1902a09e2f04a5a8715eb5545f'; // key aqpi
+
+    async function fetchWeather(city) {
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},pe&appid=${apiKey}&units=metric`);
+        const data = await response.json();
+        return data;
+    }
+
+    function displayWeather(data, elementId) {
+        const { main, weather } = data;
+        const weatherElement = document.getElementById(elementId);
+        weatherElement.innerHTML = `
+            <p>Temperatura: ${main.temp}°C</p>
+            <p>Clima: ${weather[0].description}</p>
+        `;
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+        // Fetch and display weather for Monday
+        const limaMondayWeather = await fetchWeather('Lima');
+        displayWeather(limaMondayWeather, 'lima-monday');
+
+        const cuscoMondayWeather = await fetchWeather('Cusco');
+        displayWeather(cuscoMondayWeather, 'cusco-monday');
+
+        const arequipaMondayWeather = await fetchWeather('Arequipa');
+        displayWeather(arequipaMondayWeather, 'arequipa-monday');
+
+        // Fetch and display weather for Tuesday
+        const limaTuesdayWeather = await fetchWeather('Lima');
+        displayWeather(limaMondayWeather, 'lima-tuesday');
+
+        const cuscoTuesdayWeather = await fetchWeather('Cusco');
+        displayWeather(cuscoMondayWeather, 'cusco-tuesday');
+
+        const arequipaTuesdayWeather = await fetchWeather('Arequipa');
+        displayWeather(arequipaMondayWeather, 'arequipa-tuesday');
+
+        // Fetch and display weather for Wednesday
+        // Similar code structure as Monday, replace "monday" with "wednesday"
+
+        // Fetch and display weather for Thursday
+        // Similar code structure as Monday, replace "monday" with "thursday"
+
+        // Fetch and display weather for Friday
+        // Similar code structure as Monday, replace "monday" with "friday"
+    });
+</script>
 
 
     <section class="services">
@@ -534,22 +401,7 @@ http://www.tooplate.com/view/2093-flight
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Recommended Hotel For You</h2>
-                    </div>
-                </div>
-                <div class="wrapper">
-                    <div class="col-md-4">
-                        <ul class="tabs clearfix" data-tabgroup="third-tab-group">
-                            <li><a href="#livingroom" class="active">Living Room <i class="fa fa-angle-right"></i></a>
-                            </li>
-                            <li><a href="#suitroom">Suit Room <i class="fa fa-angle-right"></i></a></li>
-                            <li><a href="#swimingpool">Swiming Pool <i class="fa fa-angle-right"></i></a></li>
-                            <li><a href="#massage">Massage Service <i class="fa fa-angle-right"></i></a></li>
-                            <li><a href="#fitness">Fitness Life <i class="fa fa-angle-right"></i></a></li>
-                            <li><a href="#event">Evening Event <i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+                       
                 <div class="col-md-8">
                     <section id="third-tab-group" class="recommendedgroup">
                         <div id="livingroom">
@@ -659,10 +511,10 @@ http://www.tooplate.com/view/2093-flight
                     <div id="owl-mostvisited" class="owl-carousel owl-theme">
                         <div class="item col-md-12">
                             <div class="visited-item">
-                                <img src="img/place-01.jpg" alt="">
+                                <img src="img/cusco.jpg" alt="">
                                 <div class="text-content">
-                                    <h4>River Views</h4>
-                                    <span>New York</span>
+                                    <h4>Macchu Picchu</h4>
+                                    <span>CUSCO</span>
                                 </div>
                             </div>
                         </div>
